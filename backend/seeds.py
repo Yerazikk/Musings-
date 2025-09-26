@@ -1,0 +1,57 @@
+#seed.py
+PREMADE_NOTES =  [
+    {"title": "Auto repair", "text": "Find a good auto repair shop near me."},
+    {"title": "Car mods", "text": "That guy turned his car into a PC with custom parts."},
+    {"title": "Rivian fan", "text": "I love Rivian electric trucks."},
+    {"title": "Gas reminder", "text": "Don’t forget to get gas before Monday."},
+    {"title": "Car check", "text": "Check tire pressure for the long drive."},
+
+    {"title": "Weekend idea", "text": "Try rock climbing this weekend."},
+    {"title": "Origami hobby", "text": "Learn how to make origami cranes."},
+    {"title": "Road trip", "text": "Go for a spontaneous road trip."},
+    {"title": "Board games", "text": "Play board games with friends."},
+    {"title": "Art museum", "text": "Visit the art museum on Sunday."},
+
+    {"title": "Doctor visit", "text": "Doctor appointment Tuesday at 2pm."},
+    {"title": "Dentist", "text": "Dentist appointment October 5th."},
+    {"title": "Team meeting", "text": "Meeting with project team Friday morning."},
+    {"title": "Professor call", "text": "Call with professor about research paper."},
+    {"title": "Eye check", "text": "Eye check-up scheduled for next month."},
+
+    {"title": "Chicken dinner", "text": "Recipe for chicken tikka masala."},
+    {"title": "Italian pasta", "text": "Make spaghetti carbonara tonight."},
+    {"title": "Vegan idea", "text": "Try vegan curry with chickpeas."},
+    {"title": "Seafood", "text": "Baked salmon with garlic butter."},
+    {"title": "Baking", "text": "Learn to make sourdough bread."},
+
+    {"title": "Sushi", "text": "Nobu sushi restaurant is amazing."},
+    {"title": "Ramen", "text": "New ramen place downtown looks good."},
+    {"title": "Italian food", "text": "Emily suggested we try the Italian spot."},
+    {"title": "Tacos", "text": "Mexican tacos from the food truck were great."},
+    {"title": "Steakhouse", "text": "Steakhouse has a happy hour menu."},
+
+    {"title": "Movie night", "text": "Watch Oppenheimer in theaters."},
+    {"title": "Netflix show", "text": "Start the new season of Stranger Things."},
+    {"title": "Sci-fi", "text": "Check out that sci-fi show on Netflix."},
+    {"title": "Rewatch", "text": "Rewatch The Lord of the Rings trilogy."},
+    {"title": "Documentary", "text": "Documentary about Rivian cars on YouTube."},
+
+    {"title": "Shopping list", "text": "Eggs, milk, bread, detergent."},
+    {"title": "Password reminder", "text": "Netflix password is saved in password manager."},
+    {"title": "Random thought", "text": "What if cats could understand quantum mechanics?"},
+    {"title": "Workout log", "text": "Ran 3 miles today, did 20 push-ups."},
+    {"title": "Quote", "text": "Stay hungry, stay foolish."},
+    {"title": "Todo", "text": "Do laundry, clean kitchen, call mom."},
+    {"title": "Dream log", "text": "I dreamed I was flying over a city made of glass."},
+    {"title": "Finance", "text": "Check credit card bill, due on the 15th."},
+    {"title": "Gift list", "text": "Ideas: headphones, candle, backpack."},
+    {"title": "Joke", "text": "Why don’t programmers like nature? Too many bugs."},
+
+    {"title": "Samie flowers", "text": "Samie loves flowers. She always keeps them fresh in a vase."},
+    {"title": "Samie relationship", "text": "Samie is my girlfriend and we planned her birthday."},
+    {"title": "Emily gifts", "text": "Gift Emily a notebook for her drawings and think about birthday flowers."},
+    {"title": "Emily", "text": "Emily loves green."},
+    {"title": "Love quotes", "text": "Cute love quotes for anniversaries."},
+    {"title": "Debating", "text": "My girlfriend loves debating."},
+    {"title": "Reading", "text": "Some women love books."},
+]

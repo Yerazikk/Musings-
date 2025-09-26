@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+*.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Data (decide if you want to track these)
+notes.json

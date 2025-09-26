@@ -1,0 +1,36 @@
+# Musings Backend (FastAPI + FAISS/BM25)
+
+## Setup
+```bash
+python -m venv .venv
+# Windows PowerShell
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+
+## Setup
+
+uvicorn server:app --host 0.0.0.0 --port 8000
+
+
+##API
+
+GET /notes
+
+POST /notes {title?, text?}
+
+PATCH /notes/{id}
+
+DELETE /notes/{id}
+
+GET /search?q=...
+
+Admin:
+
+POST /admin/seed (optional body: list of {title,text})
+
+POST /admin/wipe
+
+POST /admin/reset
+
+GET /admin/stats
