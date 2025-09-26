@@ -16,9 +16,12 @@ documents = [
     {"id": 10, "text": "Mark loves green"},
     {"id": 11, "text": "Mark is a fan of green"},
     {"id": 12, "text": "Emily likes yellowtail with yozu"},
+    {"id": 13, "text": "Samie loves flowers"},
+    {"id": 14, "text": "Samie is my girlfriend"},
 
 
 ]
+
 
 #Embedding creation
 #models: all-MiniLM-L6-v2 , all-MiniLM-L12-v2 , paraphrase-MiniLM-L6-v2 (works best) , paraphrase-mpnet-base-v2 , 
@@ -39,7 +42,7 @@ def search(query, top_k=5):
     # Keyword match
     keyword_matches = [doc for doc in documents if any(word.lower() in doc["text"].lower() for word in query.split())]
 
-    # Semantic match
+    # Semantic matchpython -m venv venv
     query_vector = model.encode([query], convert_to_numpy=True, normalize_embeddings=True)
     D, I = index.search(query_vector, top_k)
     semantic_matches = [documents[i] for i in I[0]]
